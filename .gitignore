@@ -1,0 +1,77 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor-specific
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Build output
+dist/
+build/
+tmp/
+temp/
+
+# Typescript
+*.tsbuildinfo
+
+# Debug logs from node
+debug.log
+*.tgz
+
+# Next.js / Nuxt / Vite (if used later)
+.next/
+.nuxt/
+.out/
+.cache/
+vite.config.ts
+vite.config.js
+
+# Ignore custom upload or generated files (if applicable)
+uploads/
+public/uploads/
+generated/
+
+# Local database (if used)
+*.sqlite
+*.sqlite3
+db.sqlite
+
+# PM2 logs and dumps (if used)
+dump.pm2
+*.log
+
+# Local test files
+test-output/
